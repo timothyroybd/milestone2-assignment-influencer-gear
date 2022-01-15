@@ -67,7 +67,7 @@ button {
 .products-wrapper h2 {
   font-weight: 500;
 }
-.price {
+.product-pricing {
   font-size: 1.6rem;
   font-weight: 300;
   padding: 10px 0;
@@ -98,4 +98,49 @@ button {
 .see-more a {
   text-decoration: none;
   color: #e02c6d;
+}
+/* Package Pricing */
+.package-pricing {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+/* .package-pricing h1,
+.package-pricing p {
+  text-align: center;
+} */
+.package-pricing h1 {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+.price-cross {
+  text-decoration: line-through;
+}
+.package-pricing ul {
+  list-style: none;
+}
+.package-pricing article {
+  border-radius: 10px;
+  padding: 50px 30px;
+}
+
+#premium-pricing-section {
+  background-color: #452ce0;
+  color: white;
+}
+#basic-pricing-section {
+  background-color: #2ce09f;
+}
+.package-pricing-button {
+  margin-top: 20px;
+}
+
+.package-pricing ul li {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+.package-pricing ul li:last-child {
+  font-family: "Kaushan Script", cursive;
+  font-size: 2.5rem;
+  font-weight: 700;
 }
