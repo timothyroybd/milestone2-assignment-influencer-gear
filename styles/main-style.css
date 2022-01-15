@@ -253,7 +253,7 @@ footer {
 }
 @media (max-width: 900px) {
   .products-wrapper {
-    grid-template-columns: repeat(1, 330px);
+    grid-template-columns: repeat(2, 300px);
   }
   .package-pricing {
     flex-direction: column;
@@ -269,9 +269,23 @@ footer {
     line-height: 1.5;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 800px) {
+  .products-wrapper {
+    grid-template-columns: repeat(1, 400px);
+  }
+  .products-wrapper img {
+    width: 360px;
+  }
+}
+@media (max-width: 500px) {
   .hero-section img {
     width: 250px;
+  }
+  .products-wrapper {
+    grid-template-columns: repeat(1, 300px);
+  }
+  .products-wrapper img {
+    width: 280px;
   }
   .hero-section h1 {
     font-size: 1.2rem;
