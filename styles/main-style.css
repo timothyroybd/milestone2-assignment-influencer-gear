@@ -144,3 +144,21 @@ button {
   font-size: 2.5rem;
   font-weight: 700;
 }
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #0a0826;
+  color: white;
+  margin-top: 70px;
+  padding: 30px;
+}
+.social-media-links {
+  padding-top: 8px;
+}
+.social-media-links i {
+  font-size: 1.3rem;
+}
+.social-media-links a {
+  padding-right: 20px;
+  color: white;
+}
