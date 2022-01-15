@@ -1,0 +1,40 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Reuseable Classes */
+.container {
+  margin: 65px 150px;
+}
+button {
+  border: none;
+  background-color: #e02c6d;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+}
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-section h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.hero-section > article > h1 > span {
+  display: block;
+}
+.hero-section p {
+  width: 550px;
+  padding: 8px 0 15px 0;
+}
+.fas {
+  padding-left: 5px;
+}
